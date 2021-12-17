@@ -323,9 +323,9 @@ class Installer:
         r"(?:\+[^\s]+)?"
     )
 
-    REPOSITORY_URL = "https://github.com/python-poetry/poetry"
+    REPOSITORY_URL = "https://github.com/Antaxify/poetry"
     BASE_URL = REPOSITORY_URL + "/releases/download/"
-    FALLBACK_BASE_URL = "https://github.com/sdispater/poetry/releases/download/"
+    FALLBACK_BASE_URL = "doesntwork"
 
     def __init__(
         self,
